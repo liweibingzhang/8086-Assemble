@@ -1,0 +1,258 @@
+Test date: 03/28/23  19:09:34 
+The number of times you used the grading program is 13 
+In the business world, your customer replaces the grading program. 
+The goal is a correct program with the fewest grading attempts. 
+RLC Grading System Version 4.0
+Student: St#1=Qizheng              St#2t=Jin                  Type=Team                
+Grading and testing history log
+       User Test.    Date: 03/26/23  10:19:40  1            Display      
+       User Test.    Date: 03/26/23  10:19:50  2            Display      
+       User Test.    Date: 03/26/23  10:19:54  3            Display      
+       User Test.    Date: 03/26/23  10:37:55  1            Display      
+       User Test.    Date: 03/26/23  10:47:51  1            Display      
+       User Test.    Date: 03/26/23  10:51:06  1            Display      
+       User Test.    Date: 03/26/23  11:00:36  1            Display      
+       User Test.    Date: 03/26/23  11:02:27  1            Display      
+       User Test.    Date: 03/26/23  11:05:31  1            Display      
+       User Test.    Date: 03/26/23  11:11:56  1            Display      
+       User Test.    Date: 03/26/23  11:29:53  1            Display      
+       User Test.    Date: 03/26/23  11:29:58  2            Display      
+       User Test.    Date: 03/26/23  11:31:09  1            Display      
+       User Test.    Date: 03/26/23  11:34:51  1            Display      
+       User Test.    Date: 03/26/23  11:35:06  1            Display      
+       User Test.    Date: 03/26/23  11:46:50  1            Display      
+       User Test.    Date: 03/26/23  11:47:37  1            Display      
+       User Test.    Date: 03/26/23  12:05:02  1            Display      
+       User Test.    Date: 03/26/23  12:07:20  1            Display      
+       User Test.    Date: 03/26/23  12:09:44  1            Display      
+       User Test.    Date: 03/26/23  12:09:48  2            Display      
+       User Test.    Date: 03/26/23  12:12:24  1            Display      
+       User Test.    Date: 03/26/23  12:12:29  2            Display      
+       User Test.    Date: 03/26/23  12:17:34  2            Display      
+       User Test.    Date: 03/26/23  12:28:11  2            Display      
+       User Test.    Date: 03/26/23  12:28:44  2            Display      
+       User Test.    Date: 03/26/23  12:30:14  2            Display      
+   *** Grading Run.  Date: 03/26/23  12:37:13 
+   ************************************************** 
+   *** Program works correctly.                       
+   *** Additional runs are to improve efficiency.     
+   *** Completion -- Date: 03/26/23  12:37:56                     
+   ************************************************** 
+   *** Grading Run.  Date: 03/26/23  16:58:36 
+   *** Grading Run.  Date: 03/26/23  17:00:56 
+       User Test.    Date: 03/27/23  09:52:46  1            Display      
+       User Test.    Date: 03/27/23  11:02:53  1            Display      
+   *** Grading Run.  Date: 03/27/23  11:41:10 
+   *** Grading Run.  Date: 03/27/23  15:42:42 
+   *** Grading Run.  Date: 03/28/23  12:55:29 
+   *** Grading Run.  Date: 03/28/23  17:43:49 
+   *** Grading Run.  Date: 03/28/23  17:54:48 
+   *** Grading Run.  Date: 03/28/23  17:55:17 
+   *** Grading Run.  Date: 03/28/23  17:56:22 
+   *** Grading Run.  Date: 03/28/23  17:56:44 
+   *** Grading Run.  Date: 03/28/23  19:07:55 
+   *** Grading Run.  Date: 03/28/23  19:09:34 
+
+Testing 1 dimension compression
+Your output is correct
+Your output is correct
+Your output is correct
+
++  Your executed instruction count for tests run = 00009272
++   
++  Target instructions executed for tests run is:
++  20 points 00000 - 07999 
++  15 points 08000 - 09999 
++  10 points 10000 - 11999 
++   5 points 12000 - 13999 
++   0 points 14001 +       
++                          
+
+++ Grade ++   15 = Points earned for code executed efficiency!
+
+1 dimension compression is working
+
+The following is credit earned for 1-dim compression
+
+++ Grade ++  040 = Points earned for correct answers.
+
+-> We are now analyzing your source code. You will be graded on
+the number of instructions you wrote to solve this problem.
+The target for the number of executable instructions written is:
+ 00 -  44 = 20 points 
+ 45 -  49 = 15 points 
+ 50 -  54 = 10 points 
+ 55 -  59 =  5 points 
+ 60+      =  0 points 
+Your actual counts are:
+Lines ....... 144    Comments ...  78    Labels .......  10   
+Directives ..   8    Variables ..   2    Executables ..  46    McCabe ..   6 
+++ Grade ++   15 = Points earned for code written efficiency.  
+
+-> Analyzing program documentation. 
+The heuristic algorithms used may have problems with your specific code. 
+Contact the instructor if you detect a problem with your grade. 
+DOCPH-0018 The program header format is adequate. 
+DOCHB-0.72 Use of code block headers is adequate. 
+DOCLC-1.00 Use of line comments is adequate. 
+++ Grade ++   20 = Points earned for correct documentation.    
+
+-> Calculating the total grade for the program.                  
+This grade is subject to adjustment by the instructor.           
+This grade will be reduced by any late submission penalty.       
+++ Grade ++   90 = Total grade generated by the Grading System.  
+
+-> Statistics on testing and grading                             
+    29  = Number of user tests.                                  
+     1  = Number of grading runs to get the program working.     
+    12  = Number of grading runs to improve efficiency or documentation. 
+
++- atyC:6&}xC7;&k~C7;&juiC86&zuzC?6&Zkyz&jgzk@&6958>589&&7?@6?@9:&
+
+Building the file rlc.ans for electronic submission...
+
+;---------------------------------------------------------------------
+;  Program:      Run Length Coding
+;
+;  Function:     Decompresses 1 dimensional run lengths
+;                This subroutine links with a C main program
+;
+;                Takes data  input from buffer and converts it into the image 
+;                it represents
+;
+;  Owner:        Caroline Wendelburg
+;                Qizheng Jin
+;
+;  Changes:
+;  Date          Reason
+;  ----          ------
+;  05/16/2017    Original version ... coded to spec design
+;  03/28/2023    Updated version
+;---------------------------------------------------------------------
+         .model    small
+         .8086
+         public    _rlc
+;---------------------------------------
+         .data                          ; start the data segment
+;---------------------------------------
+
+; Define white and black                ; define 
+        run     db      2
+        cols    db      2
+        wh      equ     32
+        bla     equ     219
+
+;---------------------------------------
+         .code                          ; start the code segnment
+;---------------------------------------
+; Save the registers
+;---------------------------------------
+_rlc:                            
+        push      bp                    ; save 'C' register
+        mov       bp,sp                 ; set bp to point to stack
+        push      si                    ; save 'C' register
+        push      di                    ; save 'C' register
+        mov       si,[bp+4]             ; si points to the input compressed data
+        mov       di,[bp+6]             ; di points to the empty output buffer
+;---------------------------------------
+; move data seg into ax
+;--------------------------------------- 
+        mov ax, @data                   ; move data seg to ax
+        mov es, ax                      ; move ax to es
+;---------------------------------------
+; set start values
+;--------------------------------------- 
+        mov        dx,80                ; pels_left = 80
+        mov        dh, wh               ; cur = wh
+        
+;---------------------------------------
+; load the data into register
+;---------------------------------------       
+rlc_loop:
+        mov     cx, 4                   ; shift right = 4
+        lodsb                           ; load si into al and add 1
+        cmp al, 0                       ; compare if al is 0
+        je      exit                    ; if code=0,return
+;---------------------------------------
+; each input byte holds two run lengths
+;---------------------------------------
+        mov     ah, al                  ; ah = al;
+        shr     al, cl                  ; run[0] = left 4 bits of input
+        and     ah, 0fh                 ; run[1] = right 4 bits of input
+;---------------------------------------
+; Save the data into run[]
+;---------------------------------------
+        mov     byte ptr run[0], al     ; run[0] = al
+        mov     byte ptr run[1], ah     ; run[1] = ah
+        xor     bx, bx                  ; set bx as index
+        
+;---------------------------------------
+;Do the for loop
+;---------------------------------------
+rlc_check_line:
+        cmp     dl, 0                   ; if pels_left == 0
+        je      rlc_new_line            ; start a new line
+        
+rlc_inner_loop:
+;---------------------------------------
+;compare run[i] with some value
+;---------------------------------------
+        mov     ah, byte ptr run[bx]    ; ah = run[bx]
+        cmp     ah, 15                  ; compare run[i] with 15
+        jne     rlc_not_end_of_line     ; if not equal, goto this loop
+        mov     ah,dl                   ; ah = dl   
+;---------------------------------------
+;if not end
+;---------------------------------------
+rlc_not_end_of_line:
+        mov     cl, ah                  ; move # of chars into cl
+        sub     dl, cl                  ; subtract length from pels_left
+        mov     al, dh                  ; move char to write into al
+;---------------------------------------
+;Do the output
+;---------------------------------------
+    rep stosb                           ; store char in output buffer
+    
+;---------------------------------------
+;End output
+;---------------------------------------
+rlc_end_output_loop:
+        cmp     dh, wh                  ; compare dh with white
+        je      rlc_swap_color          ; if it is, swap it
+        mov     dh, wh                  ; if not,make it white
+        jmp     rlc_end_inner_loop      ; go to this loop
+        
+;---------------------------------------
+;Swap the color
+;---------------------------------------
+rlc_swap_color:
+        mov     dh, bla                 ; make dh black
+        
+;---------------------------------------
+;End the for loop
+;---------------------------------------
+rlc_end_inner_loop:
+        inc     bx                      ; bx++
+        cmp     bx, 2                   ; compare bx with 2
+        jne     rlc_check_line          ; if it is not,continue for loop
+        jmp     rlc_loop                ; if it is,end it and goto while loop
+        
+;---------------------------------------
+;Start a new line
+;---------------------------------------
+rlc_new_line:
+        mov     dl, 80                  ; pels_left = 80;
+        mov     dh, wh                  ; cur = wh
+        jmp     rlc_inner_loop          ; goto for loop
+        
+;---------------------------------------
+; Restore registers and return
+;---------------------------------------
+exit:                                  
+        pop     di                      ; restore 'C' register
+        pop     si                      ; restore 'C' register
+        pop     bp                      ; restore 'C' register
+        ret                             ; return
+;---------------------------------------
+         end
+
