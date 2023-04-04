@@ -1,0 +1,24 @@
+1.76 instructions
+
+2.mov QWORD PTR [rbp-40], rdi
+It stores the value of the register rdi into the memory location [rbp-40].
+QWORD PTR specifies that the operand being referenced is a quadword, which is 8 bytes in size.
+The rbp register is the base pointer register, which points to the base of the current stack frame. [rbp-40] refers to a location 40 bytes below the current base pointer, where the value of rdi is being stored.
+
+3.It becomes 62 instructions
+
+4.lea r9, [rdi+1]
+It computes the effective address of the memory location [rdi+1] and stores it in the register r9.
+The lea (load effective address) instruction is commonly used to perform arithmetic operations on addresses without actually accessing the memory they refer to. In this case, lea is used to compute the address of the memory location that is one byte higher than the address in the rdi register.
+The rdi register is typically used to hold the first argument passed to a function in the x86-64 calling convention. By adding 1 to the value in rdi, this instruction computes the address of the second byte of the argument.
+
+5.It becomes 84 instructions
+
+6.125 instructions
+
+7.strb w8,[sp,#1]
+It stores the value of the 32-bit register w8 into a 1-byte memory location pointed to by the stack pointer sp plus an offset of 1 byte.
+The strb instruction is a variant of the "store register" instruction that is used to store an 8-bit value to memory. In this case, it is being used to store the lowest byte of the 32-bit value in register w8 into a single byte of memory.
+The sp register is the stack pointer, which points to the current top of the stack. By adding an offset of 1 byte to sp, this instruction stores the value of w8 at a memory location that is 1 byte above the current top of the stack.
+
+8.It becomes 65 instructions
